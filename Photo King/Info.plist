@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSContactsUsageDescription</key>
+	<string>Please allow access contacts</string>
 </dict>
 </plist>
