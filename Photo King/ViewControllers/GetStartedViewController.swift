@@ -50,6 +50,14 @@ class GetStartedViewController: UIViewController {
         requestForContactAccess { (granted) in
             if granted {
                 print(granted , "permission granted")
+                UserDefaults.standard.set(true, forKey: Key.permission)
+                
+                guard let storyboard = self.storyboard else {
+                    return
+                }
+                
+                let vc = storyboard.instantiateViewController(withIdentifier: identifier.GetStartedVC)
+                self.navigationController?.pushViewController(vc, animated: true)
             }
         }
     }
