@@ -23,11 +23,17 @@ class ViewController: UIViewController {
         print("Login Tapped")
     }
     @IBAction func didTapSignUpButton(sender: UIButton) {
-        //print("Sign Up Tapped")    }
-        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "GetStartedViewController") else {
+        guard let storyboard = self.storyboard else {
             return
         }
-        self.navigationController?.pushViewController(vc, animated: true)
+        if UserDefaults.standard.bool(forKey:  Key.permission) {
+            let vc = (storyboard.instantiateViewController(withIdentifier: identifier.signupVC))
+            self.navigationController?.pushViewController(vc, animated: true)
+        } else {
+            let vc = storyboard.instantiateViewController(withIdentifier: identifier.GetStartedVC)
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
     }
 }
 

@@ -11,7 +11,7 @@ struct Key {
     static let permission = "permission"
 }
 struct identifier {
-    static let signup = "SignupViewController"
+    static let signupVC = "SignUpViewController"
     static let viewcontroller = "viewController"
     static let GetStartedVC = "GetStartedViewController"
 }
