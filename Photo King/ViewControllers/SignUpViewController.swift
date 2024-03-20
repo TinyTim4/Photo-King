@@ -41,7 +41,7 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func didTapBack(sender : UIButton) {
-        
+        self.navigationController?.popViewController(animated: true)
     }
 
 
