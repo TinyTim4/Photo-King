@@ -37,7 +37,11 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func didTapSignupAccept(sender : UIButton) {
-        print("Sign up")
+        guard let storyboard = self.storyboard else {
+            return
+        }
+        let vc = storyboard.instantiateViewController(withIdentifier: identifier.BirthdateVC)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func didTapBack(sender : UIButton) {

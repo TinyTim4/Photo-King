@@ -14,4 +14,7 @@ struct identifier {
     static let signupVC = "SignUpViewController"
     static let viewcontroller = "viewController"
     static let GetStartedVC = "GetStartedViewController"
+    static let BirthdateVC = "BirthdateViewController"
+    static let UsernameVC = "UsernameViewController"
+    static let ChangeUserVC = "ChangeUserViewController"
 }

@@ -20,6 +20,9 @@
 		5093A9532B97B882000022B6 /* Photo_KingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093A9522B97B882000022B6 /* Photo_KingTests.swift */; };
 		5093A95D2B97B883000022B6 /* Photo_KingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093A95C2B97B883000022B6 /* Photo_KingUITests.swift */; };
 		5093A95F2B97B883000022B6 /* Photo_KingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093A95E2B97B883000022B6 /* Photo_KingUITestsLaunchTests.swift */; };
+		509653D62BB352C6002CD94E /* BirthdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509653D52BB352C6002CD94E /* BirthdateViewController.swift */; };
+		509653D82BB36758002CD94E /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509653D72BB36758002CD94E /* UsernameViewController.swift */; };
+		509653DA2BB36828002CD94E /* ChangeUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509653D92BB36828002CD94E /* ChangeUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		5093A9582B97B883000022B6 /* Photo KingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo KingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5093A95C2B97B883000022B6 /* Photo_KingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_KingUITests.swift; sourceTree = "<group>"; };
 		5093A95E2B97B883000022B6 /* Photo_KingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_KingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		509653D52BB352C6002CD94E /* BirthdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdateViewController.swift; sourceTree = "<group>"; };
+		509653D72BB36758002CD94E /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
+		509653D92BB36828002CD94E /* ChangeUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 				500A46952B9912A900E9E076 /* GetStartedViewController.swift */,
 				5093A93F2B97B880000022B6 /* ViewController.swift */,
 				5067377C2B9A92D700920CA1 /* SignUpViewController.swift */,
+				509653D52BB352C6002CD94E /* BirthdateViewController.swift */,
+				509653D72BB36758002CD94E /* UsernameViewController.swift */,
+				509653D92BB36828002CD94E /* ChangeUserViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -295,12 +304,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				506737832B9A9E0300920CA1 /* Data.swift in Sources */,
+				509653D82BB36758002CD94E /* UsernameViewController.swift in Sources */,
 				5093A9402B97B880000022B6 /* ViewController.swift in Sources */,
 				506737802B9A944300920CA1 /* Extensions.swift in Sources */,
 				5093A93C2B97B880000022B6 /* AppDelegate.swift in Sources */,
 				5093A93E2B97B880000022B6 /* SceneDelegate.swift in Sources */,
 				500A46962B9912A900E9E076 /* GetStartedViewController.swift in Sources */,
+				509653D62BB352C6002CD94E /* BirthdateViewController.swift in Sources */,
 				5067377D2B9A92D700920CA1 /* SignUpViewController.swift in Sources */,
+				509653DA2BB36828002CD94E /* ChangeUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
