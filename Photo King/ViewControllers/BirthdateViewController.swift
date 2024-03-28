@@ -31,7 +31,7 @@ class BirthdateViewController: UIViewController {
         guard let storyboard = self.storyboard else {
             return
         }
-        let vc = storyboard.instantiateViewController(withIdentifier: identifier.UsernameVC)
+        let vc = storyboard.instantiateViewController(withIdentifier: identifier.ChangeUserVC)
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

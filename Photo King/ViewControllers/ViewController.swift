@@ -20,7 +20,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTapLoginButton(sender: UIButton) {
-        print("Login Tapped")
+        guard let storyboard = self.storyboard else {
+            return
+        }
+        let vc = storyboard.instantiateViewController(withIdentifier: identifier.LoginVC)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func didTapSignUpButton(sender: UIButton) {
         guard let storyboard = self.storyboard else {

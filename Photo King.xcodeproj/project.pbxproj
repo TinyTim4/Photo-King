@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		500A46962B9912A900E9E076 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500A46952B9912A900E9E076 /* GetStartedViewController.swift */; };
+		50636D352BB5D90000A7F22B /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636D342BB5D90000A7F22B /* PasswordViewController.swift */; };
+		50636D372BB5DA1000A7F22B /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636D362BB5DA1000A7F22B /* EmailViewController.swift */; };
+		50636D392BB5E25300A7F22B /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636D382BB5E25300A7F22B /* LogInViewController.swift */; };
+		50636D3B2BB5E3D500A7F22B /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636D3A2BB5E3D500A7F22B /* HomeScreenViewController.swift */; };
+		50636D3E2BB5F0C900A7F22B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50636D3D2BB5F0C900A7F22B /* SwiftUIView.swift */; };
 		5067377D2B9A92D700920CA1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067377C2B9A92D700920CA1 /* SignUpViewController.swift */; };
 		506737802B9A944300920CA1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5067377F2B9A944300920CA1 /* Extensions.swift */; };
 		506737832B9A9E0300920CA1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506737822B9A9E0300920CA1 /* Data.swift */; };
@@ -44,6 +49,11 @@
 
 /* Begin PBXFileReference section */
 		500A46952B9912A900E9E076 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		50636D342BB5D90000A7F22B /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		50636D362BB5DA1000A7F22B /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		50636D382BB5E25300A7F22B /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		50636D3A2BB5E3D500A7F22B /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		50636D3D2BB5F0C900A7F22B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		5067377C2B9A92D700920CA1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5067377F2B9A944300920CA1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		506737822B9A9E0300920CA1 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -90,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50636D3C2BB5F0B600A7F22B /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				50636D3D2BB5F0C900A7F22B /* SwiftUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		5067377B2B9A928B00920CA1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +117,10 @@
 				509653D52BB352C6002CD94E /* BirthdateViewController.swift */,
 				509653D72BB36758002CD94E /* UsernameViewController.swift */,
 				509653D92BB36828002CD94E /* ChangeUserViewController.swift */,
+				50636D342BB5D90000A7F22B /* PasswordViewController.swift */,
+				50636D362BB5DA1000A7F22B /* EmailViewController.swift */,
+				50636D382BB5E25300A7F22B /* LogInViewController.swift */,
+				50636D3A2BB5E3D500A7F22B /* HomeScreenViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -142,6 +164,7 @@
 		5093A93A2B97B880000022B6 /* Photo King */ = {
 			isa = PBXGroup;
 			children = (
+				50636D3C2BB5F0B600A7F22B /* SwiftUI */,
 				506737812B9A9DF300920CA1 /* Data */,
 				5067377E2B9A941600920CA1 /* Extensions */,
 				5067377B2B9A928B00920CA1 /* ViewControllers */,
@@ -306,13 +329,18 @@
 				506737832B9A9E0300920CA1 /* Data.swift in Sources */,
 				509653D82BB36758002CD94E /* UsernameViewController.swift in Sources */,
 				5093A9402B97B880000022B6 /* ViewController.swift in Sources */,
+				50636D352BB5D90000A7F22B /* PasswordViewController.swift in Sources */,
 				506737802B9A944300920CA1 /* Extensions.swift in Sources */,
 				5093A93C2B97B880000022B6 /* AppDelegate.swift in Sources */,
+				50636D392BB5E25300A7F22B /* LogInViewController.swift in Sources */,
 				5093A93E2B97B880000022B6 /* SceneDelegate.swift in Sources */,
+				50636D372BB5DA1000A7F22B /* EmailViewController.swift in Sources */,
 				500A46962B9912A900E9E076 /* GetStartedViewController.swift in Sources */,
 				509653D62BB352C6002CD94E /* BirthdateViewController.swift in Sources */,
 				5067377D2B9A92D700920CA1 /* SignUpViewController.swift in Sources */,
 				509653DA2BB36828002CD94E /* ChangeUserViewController.swift in Sources */,
+				50636D3B2BB5E3D500A7F22B /* HomeScreenViewController.swift in Sources */,
+				50636D3E2BB5F0C900A7F22B /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

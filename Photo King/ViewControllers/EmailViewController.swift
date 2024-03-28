@@ -1,16 +1,18 @@
 //
-//  ChangeUserViewController.swift
+//  EmailViewController.swift
 //  Photo King
 //
-//  Created by Timothy Liu on 3/26/24.
+//  Created by Timothy Liu on 3/28/24.
 //
 
 import UIKit
 
-class ChangeUserViewController: UIViewController {
+class EmailViewController: UIViewController {
 
-    @IBOutlet var txtUsername: UITextField!
-    @IBOutlet var btnContinue: UIButton!
+    @IBOutlet var continueButton: UIButton!
+    @IBOutlet var txtEmail: UITextField!
+    
+    var password: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,19 +22,21 @@ class ChangeUserViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        btnContinue.layer.cornerRadius = btnContinue.frame.size.height/2
+        continueButton.layer.cornerRadius = continueButton.frame.size.height/2
     }
     
     @IBAction func didTapBackButton(sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
-    
+
     @IBAction func didTapContinueButton(sender: UIButton) {
+        guard let email = txtEmail.text else { return }
+        
+        
         guard let storyboard = self.storyboard else {
             return
         }
-        let vc = storyboard.instantiateViewController(withIdentifier: identifier.PasswordVC)
+        let vc = storyboard.instantiateViewController(withIdentifier: identifier.HomescreenVC)
         self.navigationController?.pushViewController(vc, animated: true)
     }
-
 }
