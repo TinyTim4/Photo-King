@@ -575,7 +575,7 @@
                                 <rect key="frame" x="50" y="391" width="293" height="70"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3w-eQ-z9v" userLabel="Line">
-                                        <rect key="frame" x="0.0" y="68" width="293" height="2"/>
+                                        <rect key="frame" x="0.0" y="21" width="293" height="2"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="2" id="is1-rE-bY6"/>

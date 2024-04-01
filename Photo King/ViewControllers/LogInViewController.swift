@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class LogInViewController: UIViewController {
     
@@ -36,6 +37,9 @@ class LogInViewController: UIViewController {
         guard let password = txtPassword.text else {
             return
         }
+        
+        let host = UIHostingController(rootView: ContentView())
+        self.navigationController?.pushViewController(host, animated: true)
         
     }
 
