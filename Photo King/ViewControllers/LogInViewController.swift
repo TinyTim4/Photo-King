@@ -38,7 +38,7 @@ class LogInViewController: UIViewController {
             return
         }
         
-        let host = UIHostingController(rootView: ContentView())
+        let host = UIHostingController(rootView: SwiftUIView())
         self.navigationController?.pushViewController(host, animated: true)
         
     }
